@@ -27,5 +27,5 @@ jobs:
     - name: Deploy Lambda
       run: |
         aws lambda update-function-code \
-        --function-name create-s3-bucket \
+        --function-name renu_create-s3-bucket \
         --zip-file fileb://function.zip
