@@ -10,6 +10,8 @@ def lambda_handler(event, context):
         Bucket=bucket_name
     )
 
+    print "this is for creating s3 bucket"
+
     return {
         "statusCode": 200,
         "body": "Bucket created successfully"
